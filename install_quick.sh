@@ -11,9 +11,9 @@ fi
 
 echo "Baixando instalador..."
 if command -v curl >/dev/null 2>&1; then
-    curl -sL -o zmanager_installer.tar.gz https://raw.githubusercontent.com/ipgl/zmanager-installer/v1.0.4/zmanager_installer.tar.gz
+    curl -sL -o zmanager_installer.tar.gz https://raw.githubusercontent.com/ipgl/zmanager-installer/V1.0.4/zmanager_installer.tar.gz
 elif command -v wget >/dev/null 2>&1; then
-    wget -q -O zmanager_installer.tar.gz https://raw.githubusercontent.com/ipgl/zmanager-installer/v1.0.4/zmanager_installer.tar.gz
+    wget -q -O zmanager_installer.tar.gz https://raw.githubusercontent.com/ipgl/zmanager-installer/V1.0.4/zmanager_installer.tar.gz
 else
     echo "Erro: é necessário ter curl ou wget instalado."
     exit 1
